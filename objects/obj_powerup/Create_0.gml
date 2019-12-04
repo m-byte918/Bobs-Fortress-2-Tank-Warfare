@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 337A76E9
+/// @DnDHash : 659C228F
 /// @DnDArgument : "var" "style"
 style = 0;
 
@@ -50,8 +50,9 @@ if(style == 1)
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4A56D3EB
+/// @DnDArgument : "var" "style"
 /// @DnDArgument : "value" "2"
-if(variable == 2)
+if(style == 2)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1

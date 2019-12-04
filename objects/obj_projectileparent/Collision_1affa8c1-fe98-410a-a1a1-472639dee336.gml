@@ -24,3 +24,8 @@ with(other) {
 alarm_set(0, 20 * 60);
 
 }
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 4C7CF031
+instance_destroy();

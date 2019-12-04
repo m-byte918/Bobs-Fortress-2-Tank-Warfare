@@ -23,3 +23,9 @@ can_pickup = 0;
 /// @DnDHash : 1ADC6860
 /// @DnDArgument : "var" "powerup"
 powerup = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 543201BA
+/// @DnDArgument : "var" "parts"
+parts = 0;
