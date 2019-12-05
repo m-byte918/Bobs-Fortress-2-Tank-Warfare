@@ -24,3 +24,15 @@ can_pickup = 0;
 /// @DnDArgument : "expr" "5"
 /// @DnDArgument : "var" "speed_set"
 speed_set = 5;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0BFC7457
+/// @DnDArgument : "var" "parts"
+parts = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2890B786
+/// @DnDArgument : "var" "ammo"
+ammo = 0;

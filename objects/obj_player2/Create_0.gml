@@ -29,3 +29,9 @@ powerup = 0;
 /// @DnDHash : 543201BA
 /// @DnDArgument : "var" "parts"
 parts = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1A2B1FAC
+/// @DnDArgument : "var" "ammo"
+ammo = 0;
