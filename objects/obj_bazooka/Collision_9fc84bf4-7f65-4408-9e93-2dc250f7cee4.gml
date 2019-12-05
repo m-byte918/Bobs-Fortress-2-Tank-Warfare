@@ -3,9 +3,10 @@
 /// @DnDHash : 0A0E207D
 /// @DnDApplyTo : 040b5130-7d77-43ea-a1c9-84ab965d5c2e
 /// @DnDArgument : "expr" "parts"
+/// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "ammo"
 with(obj_player1) {
-ammo = parts;
+ammo += parts;
 
 }
 

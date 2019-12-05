@@ -5,16 +5,6 @@
     "name": "obj_player2",
     "eventList": [
         {
-            "id": "df3ddd44-5ddc-4c16-a734-0f6a08af8d28",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "a46b806c-f091-431f-94b6-8c8119ba6f0b"
-        },
-        {
             "id": "f7f9a376-7c9c-4578-a917-738d4b27f558",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -52,6 +42,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 32,
             "eventtype": 9,
+            "m_owner": "a46b806c-f091-431f-94b6-8c8119ba6f0b"
+        },
+        {
+            "id": "cbe66aee-ba26-43b5-98de-f02452fb6d8b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "a46b806c-f091-431f-94b6-8c8119ba6f0b"
         }
     ],

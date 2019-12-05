@@ -10,9 +10,3 @@ __dnd_health = real(4);
 /// @DnDHash : 334EBAC8
 /// @DnDArgument : "var" "canshoot"
 canshoot = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 0C262806
-/// @DnDArgument : "var" "ammo"
-ammo = 0;
