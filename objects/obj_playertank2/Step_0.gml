@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 087C75CA
+/// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "canshoot"
+canshoot += -1;
+
 /// @DnDAction : YoYo Games.Instance Variables.If_Health
 /// @DnDVersion : 1
 /// @DnDHash : 13C35181

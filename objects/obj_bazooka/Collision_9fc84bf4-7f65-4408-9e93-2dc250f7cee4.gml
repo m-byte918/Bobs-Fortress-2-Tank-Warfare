@@ -1,11 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0A0E207D
-/// @DnDApplyTo : 040b5130-7d77-43ea-a1c9-84ab965d5c2e
+/// @DnDApplyTo : c9ffaf2c-c0b4-4d16-99f0-9683867a0bf0
 /// @DnDArgument : "expr" "parts"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "ammo"
-with(obj_player1) {
+with(obj_rocketplayer1) {
 ammo += parts;
 
 }
@@ -13,9 +13,9 @@ ammo += parts;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4035D079
-/// @DnDApplyTo : 040b5130-7d77-43ea-a1c9-84ab965d5c2e
+/// @DnDApplyTo : c9ffaf2c-c0b4-4d16-99f0-9683867a0bf0
 /// @DnDArgument : "var" "parts"
-with(obj_player1) {
+with(obj_rocketplayer1) {
 parts = 0;
 
 }

@@ -55,8 +55,8 @@ while(true)
 	/// @DnDHash : 1DD208C3
 	/// @DnDParent : 676FAA54
 	/// @DnDArgument : "var" "count"
-	/// @DnDArgument : "value" "16"
-	if(count == 16)
+	/// @DnDArgument : "value" "20"
+	if(count == 20)
 	{
 		/// @DnDAction : YoYo Games.Loops.Break
 		/// @DnDVersion : 1

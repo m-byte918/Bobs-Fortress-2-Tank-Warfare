@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 55665543
+/// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "block"
+block += -1;
+
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 48DB0A32
@@ -145,12 +153,6 @@ if(l0F7C852A_0)
 	/// @DnDArgument : "value" "8"
 	if(obj_playerbob2.parts == 8)
 	{
-		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 2FCED3DF
-		/// @DnDParent : 6D23FB03
-		instance_destroy();
-	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 7595D57F
@@ -160,6 +162,12 @@ if(l0F7C852A_0)
 		/// @DnDArgument : "objectid" "obj_playertank2"
 		/// @DnDSaveInfo : "objectid" "e134f2df-4ea9-48bb-92a1-b19bcd9334ea"
 		instance_create_layer(32, 480, "Instances", obj_playertank2);
+	
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 2FCED3DF
+		/// @DnDParent : 6D23FB03
+		instance_destroy();
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -171,12 +179,6 @@ if(l0F7C852A_0)
 		parts = 0;
 		
 		}
-	
-		/// @DnDAction : YoYo Games.Common.Exit_Event
-		/// @DnDVersion : 1
-		/// @DnDHash : 176E797C
-		/// @DnDParent : 6D23FB03
-		exit;
 	}
 }
 
@@ -209,12 +211,6 @@ if(l4A1EB1EC_0)
 		
 		}
 	
-		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 407A2EC3
-		/// @DnDParent : 213BB048
-		instance_destroy();
-	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 701405C3
@@ -225,10 +221,10 @@ if(l4A1EB1EC_0)
 		/// @DnDSaveInfo : "objectid" "4dbacfc9-fd3a-4da7-a7c1-43713c7f0fef"
 		instance_create_layer(32, 480, "Instances", obj_rocketplayer2);
 	
-		/// @DnDAction : YoYo Games.Common.Exit_Event
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
-		/// @DnDHash : 48D7F86B
+		/// @DnDHash : 407A2EC3
 		/// @DnDParent : 213BB048
-		exit;
+		instance_destroy();
 	}
 }

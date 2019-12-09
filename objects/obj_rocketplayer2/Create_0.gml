@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2D328E0F
+/// @DnDArgument : "var" "block"
+block = 0;
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
 /// @DnDHash : 30095352
@@ -36,6 +42,11 @@ ammo = 0;
 /// @DnDHash : 73F2D158
 /// @DnDArgument : "var" "powerup"
 powerup = 0;
+
+/// @DnDAction : YoYo Games.Instances.Inherit_Event
+/// @DnDVersion : 1
+/// @DnDHash : 7E2294B5
+event_inherited();
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
