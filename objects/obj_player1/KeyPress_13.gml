@@ -22,4 +22,13 @@ if(ammo > 0)
 	   image_index = direction/6;
 	   
 	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 736270FA
+	/// @DnDParent : 677A2CD5
+	/// @DnDArgument : "expr" "-1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "ammo"
+	ammo += -1;
 }

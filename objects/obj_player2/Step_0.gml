@@ -199,18 +199,6 @@ if(l4A1EB1EC_0)
 	/// @DnDArgument : "value" "8"
 	if(obj_playerbob1.parts == 8)
 	{
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 7143E5DB
-		/// @DnDApplyTo : 4a2deed5-0db6-4ef2-b0a2-93bb6dc6cbca
-		/// @DnDParent : 213BB048
-		/// @DnDArgument : "expr" "obj_playerbob2.parts"
-		/// @DnDArgument : "var" "count"
-		with(obj_storage) {
-		count = obj_playerbob2.parts;
-		
-		}
-	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 701405C3

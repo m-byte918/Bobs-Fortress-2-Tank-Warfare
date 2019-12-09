@@ -22,9 +22,11 @@ if(__dnd_health == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2228F557
 	/// @DnDParent : 13C35181
+	/// @DnDArgument : "xpos" "32"
+	/// @DnDArgument : "ypos" "480"
 	/// @DnDArgument : "objectid" "obj_playerbob2"
 	/// @DnDSaveInfo : "objectid" "ce756bc4-3361-49ab-8661-08b63aaa91ad"
-	instance_create_layer(0, 0, "Instances", obj_playerbob2);
+	instance_create_layer(32, 480, "Instances", obj_playerbob2);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
@@ -37,7 +39,9 @@ if(__dnd_health == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 0B785265
 	/// @DnDParent : 13C35181
+	/// @DnDArgument : "xpos" "1536"
+	/// @DnDArgument : "ypos" "480"
 	/// @DnDArgument : "objectid" "obj_playerbob1"
 	/// @DnDSaveInfo : "objectid" "14a59cbe-ed80-43da-8d85-59c220cb100e"
-	instance_create_layer(0, 0, "Instances", obj_playerbob1);
+	instance_create_layer(1536, 480, "Instances", obj_playerbob1);
 }

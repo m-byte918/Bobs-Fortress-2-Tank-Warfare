@@ -1,5 +1,4 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instances.Inherit_Event
 /// @DnDVersion : 1
-/// @DnDHash : 0F253EE8
-/// @DnDArgument : "var" "canshoot"
-canshoot = 0;
+/// @DnDHash : 469CD907
+event_inherited();

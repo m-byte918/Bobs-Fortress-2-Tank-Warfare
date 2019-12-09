@@ -5,16 +5,16 @@
 /// @DnDArgument : "value" "1"
 if(style == 1)
 {
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
 	/// @DnDVersion : 1
-	/// @DnDHash : 546C4F5A
-	/// @DnDApplyTo : a46b806c-f091-431f-94b6-8c8119ba6f0b
+	/// @DnDHash : 5171BF62
+	/// @DnDApplyTo : 4dbacfc9-fd3a-4da7-a7c1-43713c7f0fef
 	/// @DnDParent : 1ECB2EBD
-	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "var" "powerup"
-	with(obj_player2) {
-	powerup = 1;
-	
+	/// @DnDArgument : "health" "1"
+	/// @DnDArgument : "health_relative" "1"
+	with(obj_rocketplayer2) {
+	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+	__dnd_health += real(1);
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance

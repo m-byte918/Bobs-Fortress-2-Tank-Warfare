@@ -11,13 +11,6 @@ block = 0;
 
 __dnd_health = real(1);
 
-/// @DnDAction : YoYo Games.Instance Variables.Set_Score
-/// @DnDVersion : 1
-/// @DnDHash : 63D13650
-/// @DnDArgument : "score_relative" "1"
-if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-__dnd_score += real(0);
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4A3E9715
@@ -47,10 +40,3 @@ powerup = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 66E2B912
 event_inherited();
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 0CF7DD84
-/// @DnDArgument : "expr" "obj_storage.count"
-/// @DnDArgument : "var" "parts"
-parts = obj_storage.count;
