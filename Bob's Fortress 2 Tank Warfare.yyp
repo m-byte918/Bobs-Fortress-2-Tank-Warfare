@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "8c56305c-373a-4d8c-b33a-401c8808614f",
+            "Value": {
+                "id": "54087baf-6b92-4b20-9714-811e50e8589b",
+                "resourcePath": "fonts\\fnt_sans_9pt\\fnt_sans_9pt.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8e91d34d-323b-4bae-89f9-44d5b6a70efe",
             "Value": {
                 "id": "05640946-240c-42e6-962b-df20f551c68f",

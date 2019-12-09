@@ -21,3 +21,9 @@ powerup = 0;
 /// @DnDHash : 0C2F9266
 /// @DnDArgument : "var" "ammo"
 ammo = 0;
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+/// @DnDVersion : 1
+/// @DnDHash : 7EA23979
+
+__dnd_score = real(0);

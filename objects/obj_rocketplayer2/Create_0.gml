@@ -6,7 +6,7 @@ block = 0;
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
-/// @DnDHash : 30095352
+/// @DnDHash : 2B689D62
 /// @DnDArgument : "health" "1"
 
 __dnd_health = real(1);
