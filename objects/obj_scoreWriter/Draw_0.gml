@@ -16,11 +16,11 @@ draw_set_alpha(l516AD864_0 / $ff);
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
 /// @DnDVersion : 1
 /// @DnDHash : 778FA43E
-/// @DnDApplyTo : 040b5130-7d77-43ea-a1c9-84ab965d5c2e
+/// @DnDApplyTo : 934b99ca-b478-4c11-86f4-839a6f236bc0
 /// @DnDArgument : "x" "64"
 /// @DnDArgument : "y" "64"
 /// @DnDArgument : "caption" ""Player 1 score: ""
-with(obj_player1) {
+with(obj_scolder1) {
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 draw_text(64, 64, string("Player 1 score: ") + string(__dnd_score));
 }
@@ -28,11 +28,11 @@ draw_text(64, 64, string("Player 1 score: ") + string(__dnd_score));
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
 /// @DnDVersion : 1
 /// @DnDHash : 6502D924
-/// @DnDApplyTo : a46b806c-f091-431f-94b6-8c8119ba6f0b
+/// @DnDApplyTo : fba52ec9-13ba-4719-8aea-55db7a9f0606
 /// @DnDArgument : "x" "1290"
 /// @DnDArgument : "y" "64"
 /// @DnDArgument : "caption" ""Player 2 score: ""
-with(obj_player2) {
+with(obj_scolder2) {
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 draw_text(1290, 64, string("Player 2 score: ") + string(__dnd_score));
 }

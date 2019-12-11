@@ -30,11 +30,11 @@ if(l4990D2D8_0)
 		/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 		/// @DnDVersion : 1
 		/// @DnDHash : 6406DECE
-		/// @DnDApplyTo : a46b806c-f091-431f-94b6-8c8119ba6f0b
+		/// @DnDApplyTo : fba52ec9-13ba-4719-8aea-55db7a9f0606
 		/// @DnDParent : 2F112E01
 		/// @DnDArgument : "score" "1"
 		/// @DnDArgument : "score_relative" "1"
-		with(obj_player2) {
+		with(obj_scolder2) {
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 		__dnd_score += real(1);
 		}
